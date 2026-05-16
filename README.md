@@ -45,8 +45,7 @@ Stworzony, aby jednym kliknięciem wykonać pełny backup lub przywrócić PSP8 
 - X - Usun WSZYSTKIE backupy
 - 5 - Wyjdz
 
-<img width="550" height="313" alt="4528YbxIR0MGsC" src="https://github.com/user-attachments/assets/a71ec46e-a27f-4c62-a6e3-b5e30853f57a" />
-
+<img width="496" height="292" alt="4529powershell_eMMVSqKPM4" src="https://github.com/user-attachments/assets/6f18a86f-7ebb-4d69-b892-72eb22f489c6" />
 
 ## 💡 Dlaczego ten skrypt?
 
