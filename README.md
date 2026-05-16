@@ -44,12 +44,14 @@ Stworzony, aby jednym kliknięciem wykonać pełny backup lub przywrócić PSP8 
 
 ## 📝 Menu
 
-1 - Zrob backup
-2 - Przywroc z ZIP
-3 - Otworz folder backupow
-4 - Otworz folder PSP8
-X - Usun WSZYSTKIE backupy
-5 - Wyjdz
+- 1 - Zrob backup
+- 2 - Przywroc z ZIP
+- 3 - Otworz folder backupow
+- 4 - Otworz folder PSP8
+- X - Usun WSZYSTKIE backupy
+- 5 - Wyjdz
+
+<img width="442" height="251" alt="4527powershell_T247n0hSxG" src="https://github.com/user-attachments/assets/0959957c-c70e-4e95-9911-51f42a16e2af" />
 
 ## 💡 Dlaczego ten skrypt?
 
