@@ -5,14 +5,8 @@ Stworzony, aby jednym kliknięciem wykonać pełny backup lub przywrócić PSP8 
 
 ## ✨ Funkcje
 
-- 🔐 **Auto‑elevacja** — skrypt sam uruchamia się jako administrator  
 - 📁 **Backup PSP8** z live podglądem kopiowanych katalogów  
 - ♻️ **Restore z ZIP** z podglądem przywracanych folderów  
-- 🗂️ **Otwórz folder backupów** (tworzy go automatycznie, jeśli nie istnieje)  
-- 📂 **Otwórz folder PSP8** w Program Files  
-- ❌ **Usuń wszystkie backupy** (z potwierdzeniem)  
-- 🎨 **Kolorowe menu** i czytelny interfejs  
-- ⏸️ **Pause-Space** — kontynuacja po SPACE lub ENTER  
 - 🔒 **Limit 3 ostatnich backupów** (starsze usuwane automatycznie)
 
 ## 📦 Co jest backupowane?
