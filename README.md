@@ -1,4 +1,4 @@
-# PSP 8.1 Manager (PowerShell Edition)
+# PSP 8.1 Menager (PowerShell Edition)
 
 Prosty, szybki i niezawodny menedżer backupów dla **Jasc Paint Shop Pro 8.1**.  
 Stworzony, aby jednym kliknięciem wykonać pełny backup lub przywrócić PSP8 na nowym systemie — bez instalatorów, bez kombinowania, bez ryzyka utraty ustawień.
