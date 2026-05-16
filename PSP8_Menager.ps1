@@ -55,7 +55,7 @@ function Show-Menu {
     Clear-Host
     Write-Host ""
     Write-Host "============================================" -ForegroundColor DarkCyan
-    Write-Host "        PSP 8.1 MANAGER - PowerShell" -ForegroundColor Cyan
+    Write-Host "        PSP 8.1 MENAGER - PowerShell" -ForegroundColor Cyan
     Write-Host "============================================" -ForegroundColor DarkCyan
     Write-Host ""
     Write-Host "1 - Zrob backup" -ForegroundColor Yellow
