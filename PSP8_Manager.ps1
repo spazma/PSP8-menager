@@ -1,5 +1,5 @@
 # ============================================
-# AUTO-ELEVACJA + POWRÓT DO KATALOGU SKRYPTU
+# AUTO-ELEVACJA + POWRÃ“T DO KATALOGU SKRYPTU
 # ============================================
 
 $ScriptPath = $MyInvocation.MyCommand.Path
@@ -83,7 +83,7 @@ function Backup-PSP {
     New-Item -ItemType Directory -Force -Path $BackupRoot | Out-Null
     New-Item -ItemType Directory -Force -Path $OutDir | Out-Null
 
-    # LIVE PODGL¥D KATALOGÓW
+    # LIVE PODGLÂ¥D KATALOGÃ“W
     $folders = @(
         "Brushes",
         "Patterns",
@@ -168,7 +168,7 @@ function Restore-PSP {
     Write-Host "Rozpakowywanie ZIP..." -ForegroundColor Green
     Expand-Archive -Path $ZipPath -DestinationPath $TempDir -Force
 
-    # LIVE PODGL¥D RESTORE
+    # LIVE PODGLÂ¥D RESTORE
     $restoreFolders = Get-ChildItem (Join-Path $TempDir "ProgramFiles") -Directory
 
     foreach ($f in $restoreFolders) {
@@ -188,7 +188,7 @@ function Restore-PSP {
 
 
 # ============================================
-# USUWANIE WSZYSTKICH BACKUPÓW
+# USUWANIE WSZYSTKICH BACKUPÃ“W
 # ============================================
 
 function Delete-All-Backups {
@@ -211,7 +211,7 @@ function Delete-All-Backups {
 
 
 # ============================================
-# OTWÓRZ FOLDER BACKUPÓW
+# OTWÃ“RZ FOLDER BACKUPÃ“W
 # ============================================
 
 function Open-Backup-Folder {
@@ -219,7 +219,7 @@ function Open-Backup-Folder {
     Write-Section "OTWIERANIE FOLDERU BACKUP"
 
     if (-not (Test-Path $BackupRoot)) {
-        Write-Host "Folder BACKUP nie istnieje — tworze..." -ForegroundColor Yellow
+        Write-Host "Folder BACKUP nie istnieje â€” tworze..." -ForegroundColor Yellow
         New-Item -ItemType Directory -Force -Path $BackupRoot | Out-Null
     }
 
@@ -231,7 +231,7 @@ function Open-Backup-Folder {
 
 
 # ============================================
-# OTWÓRZ FOLDER PSP8
+# OTWÃ“RZ FOLDER PSP8
 # ============================================
 
 function Open-PSP8-Folder {
@@ -252,7 +252,7 @@ function Open-PSP8-Folder {
 
 
 # ============================================
-# G£ÓWNA PÊTLA
+# GÂ£Ã“WNA PÃŠTLA
 # ============================================
 
 while ($true) {
