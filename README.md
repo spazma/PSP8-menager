@@ -34,7 +34,7 @@ Stworzony, aby jednym kliknięciem wykonać pełny backup lub przywrócić PSP8 
 1. Pobierz `PSP_Menager.ps1`  
 2. Umieść go w dowolnym katalogu (np. `D:\psp8-menager`)  
 3. Uruchom **PPM → Run with PowerShell**  
-4. Skrypt sam podniesie uprawnienia i wróci do swojego katalogu
+4. Skrypt sam podniesie uprawnienia administratora (potrzebne do RESTORE i tworzenia katalogów)
 
 ## 📝 Menu
 
